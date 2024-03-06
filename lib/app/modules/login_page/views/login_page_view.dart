@@ -112,6 +112,7 @@ class LoginPageView extends GetView<LoginPageController> {
               height: 100,
             ),
             const Text('Mari Laporkan Sampah'),
+            const Text('Pemrograman Multiplatform - Adri Khamid'),
             const Text('V.1.0.0'),
           ],
         ),

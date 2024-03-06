@@ -17,7 +17,10 @@ class HomeView extends GetView<HomeController> {
 
         /// AppBar merupakan sebuah widget yang digunakan untuk menampilkan judul dan logo.
         appBar: AppBar(
-          title: Text('Marlampah'),
+          title: Text(
+            'Marlampah',
+            style: TextStyle(color: Colors.white),
+          ),
           backgroundColor: Colors.red,
           centerTitle: true,
           leading: Padding(
@@ -59,8 +62,8 @@ class HomeView extends GetView<HomeController> {
                 /// Keluar dari aplikasi saat menekan button keluar.
                 HomeController().signOut();
               },
-              icon: Icon(Icons.logout),
-              label: Text('Keluar'),
+              icon: Icon(Icons.logout, color: Colors.white),
+              label: Text('Keluar', style: TextStyle(color: Colors.white)),
               style: ElevatedButton.styleFrom(backgroundColor: Colors.red),
             )
           ],
